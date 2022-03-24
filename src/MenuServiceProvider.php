@@ -50,7 +50,8 @@ class MenuServiceProvider extends ServiceProvider
             return new WMenu();
         });
 
-        $this->app->make('Wecodelaravel\Menu\Controllers\MenuController');
+        // $this->app->make('Wecodelaravel\Menu\Controllers\MenuController');
+
         $this->mergeConfigFrom(
             __DIR__ . '/../config/menu.php',
             'menu'
