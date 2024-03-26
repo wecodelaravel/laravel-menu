@@ -9,7 +9,7 @@ class MenuItems extends Model
 
     protected $table = null;
 
-    protected $fillable = ['label', 'link', 'parent', 'sort', 'class', 'menu', 'depth', 'role_id'];
+    protected $fillable = ['label', 'link', 'parent', 'sort', 'class', 'menu', 'depth', 'role_id', 'icon_only_menu', 'menu_icon_class', 'logged_in_only'];
 
     public function __construct(array $attributes = [])
     {
