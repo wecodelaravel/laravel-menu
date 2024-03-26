@@ -8,6 +8,9 @@ use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use Wecodelaravel\Menu\Models\Menus;
 use Wecodelaravel\Menu\Models\MenuItems;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\View;
+use illuminate\Support\Facades\Form;
 
 class MenuController extends Controller
 {
